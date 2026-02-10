@@ -1,0 +1,25 @@
+:root {
+    /* Color Palette */
+    --color-primary: #FF6B6B;
+    /* Warm Coral */
+    --color-secondary: #4ECDC4;
+    /* Soft Teal */
+    --color-accent: #9B59B6;
+    /* Deep Purple */
+    --color-highlight: #FFD93D;
+    /* Sunshine Yellow */
+    --color-blue: #3498DB;
+    /* Sky Blue */
+    --color-bg: #F8F9FA;
+    /* Cloud White */
+    --color-text: #2C3E50;
+    /* Slate Gray */
+    --color-text-light: #95a5a6;
+
+    /* Spacing & Layout */
+    --sidebar-width: 256px;
+    --header-height: 80px;
+    --bottom-nav-height: 70px;
+}
+
+/* Tailwind Custom Config Wrapper if needed, or pure CSS variables usage */

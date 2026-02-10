@@ -1,0 +1,646 @@
+[
+  {
+    "id": 1,
+    "name": "FRESH cleansing water",
+    "image_url": "https://ringana-media-library.imgix.net/2024/03/RINGANA-produktfoto-cleansing-water-mizellen.png?s=9ba0ab9ac05426eb77d51c09a70e91f0",
+    "product_url": "https://www.ringana.com/produkt/fresh-cleansing-water/",
+    "created_at": "2025-10-19 02:34:07"
+  },
+  {
+    "id": 2,
+    "name": "CAPS fem",
+    "image_url": "https://ringana-media-library.imgix.net/L09Fh11eZCkAQRK2eQR8l?s=b394054c446034d7e4708a24458754fd",
+    "product_url": "https://www.ringana.com/produkt/caps-fem/",
+    "created_at": "2025-10-19 02:24:25"
+  },
+  {
+    "id": 3,
+    "name": "manadental starter kit",
+    "image_url": "https://ringana-media-library.imgix.net/B7SXyTK8lmLatsLDYkxWB?s=a42db778de08245cd277d616556994ef",
+    "product_url": "https://www.ringana.com/produkt/manadental-starter-kit/",
+    "created_at": "2025-11-29 21:43:35"
+  },
+  {
+    "id": 4,
+    "name": "FRESH tinted moisturiser SPF 30 – N2",
+    "image_url": "https://ringana-media-library.imgix.net/jiFKA0d7BcQddtuG4xenn?s=734346a477ebe017975e80ef283ff419",
+    "product_url": "https://www.ringana.com/produkt/fresh-tinted-moisturiser-n2/",
+    "created_at": "2025-10-19 02:51:52"
+  },
+  {
+    "id": 5,
+    "name": "FRESH glam x-mas set",
+    "image_url": "https://ringana-media-library.imgix.net/e3ivpuV0Y1J_fAmZEx4i4?s=3a51c30219fa6df6a4c47973307a4500",
+    "product_url": "https://www.ringana.com/produkt/fresh-glam-xmas-set/",
+    "created_at": "2025-10-18 10:36:06"
+  },
+  {
+    "id": 6,
+    "name": "CAPS cerebro",
+    "image_url": "https://ringana-media-library.imgix.net/Uqqi4XdrlcJm4dVaZY9mD?s=1a60870a6d00b3b59baa687a86cb9079",
+    "product_url": "https://www.ringana.com/produkt/caps-cerebro/",
+    "created_at": "2025-10-19 02:22:24"
+  },
+  {
+    "id": 7,
+    "name": "FRESH tinted balm lip & cheek berry",
+    "image_url": "https://ringana-media-library.imgix.net/oodfV8Tj_-zJujc-4BrzW?s=214bf11ba6e91e041a59338778fb29c0",
+    "product_url": "https://www.ringana.com/produkt/fresh-tinted-balm-berry/",
+    "created_at": "2025-11-25 20:24:05"
+  },
+  {
+    "id": 8,
+    "name": "FRESH tinted moisturiser SPF 30 – N1",
+    "image_url": "https://ringana-media-library.imgix.net/KGvUpaDwkbTmqe3EqnEuv?s=e7af34b7d430104417d3acc789f40749",
+    "product_url": "https://www.ringana.com/produkt/fresh-tinted-moisturiser-n1/",
+    "created_at": "2025-10-19 02:51:18"
+  },
+  {
+    "id": 9,
+    "name": "FRESH stay fresh",
+    "image_url": "https://ringana-media-library.imgix.net/2022/08/ringana-fresh-50ml-stay-fresh-NBC7.png?s=2917983debc35556b45f4c759c7b5fc3",
+    "product_url": "https://www.ringana.com/produkt/fresh-stay-fresh/",
+    "created_at": "2025-10-19 02:48:40"
+  },
+  {
+    "id": 10,
+    "name": "FRESH after sun & tan booster",
+    "image_url": "https://ringana-media-library.imgix.net/g-GVXGYvxE7b9W95gexFg?s=afc662e99d274c3e58392ebe31376831",
+    "product_url": "https://www.ringana.com/produkt/fresh-after-sun/",
+    "created_at": "2025-10-19 02:29:28"
+  },
+  {
+    "id": 11,
+    "name": "ADDS repair",
+    "image_url": "https://ringana-media-library.imgix.net/2022/07/ringana-fresh-add-15ml-repair.png?s=a01b2609e6f64f1b8ab73a0e3bd09aa7",
+    "product_url": "https://www.ringana.com/produkt/fresh-adds-repair/",
+    "created_at": "2025-10-19 02:16:58"
+  },
+  {
+    "id": 12,
+    "name": "RINGANAbty",
+    "image_url": "https://ringana-media-library.imgix.net/JBI8XaoucyDsCztsY3vPV?s=0eaa95a0d770263e93e8820642eab6e7",
+    "product_url": "https://www.ringana.com/produkt/ringanabty/",
+    "created_at": "2025-10-19 02:55:02"
+  },
+  {
+    "id": 13,
+    "name": "FRESH breeze",
+    "image_url": "https://ringana-media-library.imgix.net/5egUBKF1Nr3dWVEd1vyuJ?s=e0c948bd1e40d671b42f7b44175f4aa2",
+    "product_url": "https://www.ringana.com/produkt/fresh-breeze/",
+    "created_at": "2025-10-19 02:07:38"
+  },
+  {
+    "id": 14,
+    "name": "SPORT endurance",
+    "image_url": "https://ringana-media-library.imgix.net/I_lsonPCn_RlXyxoyuxlX?s=b9d351fe7312b55a17966a11d6f842e6",
+    "product_url": "https://www.ringana.com/produkt/sport-endurance/",
+    "created_at": "2025-10-19 02:56:24"
+  },
+  {
+    "id": 15,
+    "name": "FRESH moisturiser for men",
+    "image_url": "https://ringana-media-library.imgix.net/2022/07/ringana-fresh-50ml-moisturizer-for-men.png?s=d499d1dece6e697a365311815f058635",
+    "product_url": "https://www.ringana.com/produkt/fresh-moisturiser-for-men/",
+    "created_at": "2025-10-19 02:43:38"
+  },
+  {
+    "id": 16,
+    "name": "CAPS beauty & hair",
+    "image_url": "https://ringana-media-library.imgix.net/0KyD1B0lEJufcE6TL-yBR?s=bf80c0e0c79000af54779cd488c1a274",
+    "product_url": "https://www.ringana.com/produkt/caps-beautyhair/",
+    "created_at": "2025-10-19 02:21:30"
+  },
+  {
+    "id": 17,
+    "name": "FRESH skin perfection",
+    "image_url": "https://ringana-media-library.imgix.net/RLvMktbxI8NLkbpeqPiJj?s=42ab254fcb3df7e2615b47b272b09f3e",
+    "product_url": "https://www.ringana.com/produkt/fresh-skin-perfection/",
+    "created_at": "2025-10-19 02:15:08"
+  },
+  {
+    "id": 18,
+    "name": "FRESH sample box face light",
+    "image_url": "https://ringana-media-library.imgix.net/SZageKsUiSQMaAlVCuhkW?s=da1623d4869b6916a18df826e604f4df",
+    "product_url": "https://ringana.com/produkt/fresh-sample-box-face-light/",
+    "created_at": "2025-12-04 15:53:26"
+  },
+  {
+    "id": 19,
+    "name": "BEYOND spermidine",
+    "image_url": "https://ringana-media-library.imgix.net/2024/03/RINGANA-Produktfoto-beyond-spermedine-2000x2000-1.png?s=ec10e6e0fbb718ea13c622bb3549a515",
+    "product_url": "https://www.ringana.com/produkt/beyond-spermidine/",
+    "created_at": "2025-10-19 02:20:39"
+  },
+  {
+    "id": 20,
+    "name": "FRESH body wash",
+    "image_url": "https://ringana-media-library.imgix.net/2022/08/ringana-fresh-200ml-body-wash-NBC7.png?s=6770438b446eac41e0663874a22b2302",
+    "product_url": "https://www.ringana.com/produkt/fresh-body-wash-nbc/",
+    "created_at": "2025-10-19 02:33:25"
+  },
+  {
+    "id": 21,
+    "name": "FRESH body milk light",
+    "image_url": "https://ringana-media-library.imgix.net/Tng2vBwV2gBuCg849itsp?s=1e5cfb472bbf1fa554bee585c30909d7",
+    "product_url": "https://www.ringana.com/produkt/fresh-body-milk-light/",
+    "created_at": "2025-10-19 02:05:42"
+  },
+  {
+    "id": 22,
+    "name": "FRESH body milk rich",
+    "image_url": "https://ringana-media-library.imgix.net/A3ZjlsfqBO4BL4PS6x7qa?s=85fd81fddbcdaefae7ed72d7a3d132c4",
+    "product_url": "https://www.ringana.com/produkt/fresh-body-milk-rich/",
+    "created_at": "2025-10-19 02:06:45"
+  },
+  {
+    "id": 23,
+    "name": "FRESH baby oil",
+    "image_url": "https://ringana-media-library.imgix.net/2024/01/RINGANA-fresh-baby-oil-veggie-award.png?s=bea2b084dd483a20c9edf28037e29554",
+    "product_url": "https://www.ringana.com/produkt/fresh-baby-oil/",
+    "created_at": "2025-10-19 02:31:54"
+  },
+  {
+    "id": 24,
+    "name": "FRESH baby cream",
+    "image_url": "https://ringana-media-library.imgix.net/2024/01/RINGANA-fresh-baby-cream-veggie-award.png?s=54b3efe56bb7b9debf432a8ecb0039f9",
+    "product_url": "https://www.ringana.com/produkt/fresh-baby-cream/",
+    "created_at": "2025-10-19 02:31:31"
+  },
+  {
+    "id": 25,
+    "name": "FRESH baby bum foam",
+    "image_url": "https://ringana-media-library.imgix.net/HOX_Xz7OHhqJjbyMYgMFC?s=22080c75820bb455cf6c9451ec71b674",
+    "product_url": "https://www.ringana.com/produkt/fresh-baby-bum-foam/",
+    "created_at": "2025-10-19 02:31:01"
+  },
+  {
+    "id": 26,
+    "name": "FRESH baby bum cream",
+    "image_url": "https://ringana-media-library.imgix.net/2024/01/RINGANa-fresh-baby-bum-cream-veggie-award.png?s=dd0519b561d281b217ad1ceba843a939",
+    "product_url": "https://www.ringana.com/produkt/fresh-baby-bum-cream/",
+    "created_at": "2025-10-19 02:30:37"
+  },
+  {
+    "id": 27,
+    "name": "CAPS d-gest",
+    "image_url": "https://ringana-media-library.imgix.net/2022/07/1FgF8OLt-ringana-caps-d-gest.png?s=e4084c6646cadb8d0f68e57530288ce3",
+    "product_url": "https://www.ringana.com/produkt/caps-d-gest/",
+    "created_at": "2025-10-19 02:23:18"
+  },
+  {
+    "id": 28,
+    "name": "FRESH tinted moisturiser SPF 30 – N4",
+    "image_url": "https://ringana-media-library.imgix.net/YRDbNQWIekmcrWePccWmB?s=c882c1220c325f272e56927250f19389",
+    "product_url": "https://www.ringana.com/produkt/fresh-tinted-moisturiser-n4/",
+    "created_at": "2025-12-08 17:23:34"
+  },
+  {
+    "id": 29,
+    "name": "FRESH sunscreen",
+    "image_url": "https://ringana-media-library.imgix.net/bvlMtH7cKcX0VdQAYgjLU?s=981772c3c640d3be85b607388c5bbd07",
+    "product_url": "https://www.ringana.com/produkt/fresh-sunscreen-spf-25/",
+    "created_at": "2025-10-19 02:50:23"
+  },
+  {
+    "id": 30,
+    "name": "FRESH soap mandarine & orange",
+    "image_url": "https://ringana-media-library.imgix.net/lltW8QF95juGjDwk8F7fW?s=4214b303d5e71bbc79cba6a40d4c69ca",
+    "product_url": "https://www.ringana.com/produkt/fresh-soap-mandarine-orange/",
+    "created_at": "2025-10-18 10:16:57"
+  },
+  {
+    "id": 31,
+    "name": "FRESH baby body & hair wash",
+    "image_url": "https://ringana-media-library.imgix.net/2024/01/RINGANA-fresh-baby-body-hair-wash-veggie-award.png?s=76f2a1b3867606faa7935c41232a1042",
+    "product_url": "https://www.ringana.com/produkt/fresh-baby-body-hair-wash/",
+    "created_at": "2025-10-19 02:30:18"
+  },
+  {
+    "id": 32,
+    "name": "CAPS immu",
+    "image_url": "https://ringana-media-library.imgix.net/geNgt0h9fqB9yJ7BfW5m_?s=74d6f4e8b3d4bb7be2eff7b6c45ed978",
+    "product_url": "https://www.ringana.com/produkt/caps-immu/",
+    "created_at": "2025-10-19 02:26:17"
+  },
+  {
+    "id": 33,
+    "name": "CAPS hydro",
+    "image_url": "https://ringana-media-library.imgix.net/EEwWSHA0_1KtKiLIwwAY3?s=ea077c7318e5c2e315ab5565eb158a8c",
+    "product_url": "https://www.ringana.com/produkt/caps-hydro/",
+    "created_at": "2025-10-19 02:25:27"
+  },
+  {
+    "id": 34,
+    "name": "BEYOND omega",
+    "image_url": "https://ringana-media-library.imgix.net/keGN7sW7keY6Zs-FFrb17?s=c02dc18efffd7bb1e4fc3df39f063407",
+    "product_url": "https://www.ringana.com/produkt/beyond-omega/",
+    "created_at": "2025-10-19 02:19:33"
+  },
+  {
+    "id": 35,
+    "name": "ADDS effect",
+    "image_url": "https://ringana-media-library.imgix.net/2022/07/ringana-fresh-add-15ml-effect.png?s=557dd083edd7e8aa26c83e48f9a9e62e",
+    "product_url": "https://www.ringana.com/produkt/fresh-adds-effect/",
+    "created_at": "2025-10-19 02:15:37"
+  },
+  {
+    "id": 36,
+    "name": "FRESH lip balm classic",
+    "image_url": "https://ringana-media-library.imgix.net/_R8mEZERqKRWz4zAqiUdU?s=e4bbbd1aa162b320fd07f61ccd2d8446",
+    "product_url": "https://www.ringana.com/produkt/fresh-lip-balm-classic/",
+    "created_at": "2025-10-19 02:08:19"
+  },
+  {
+    "id": 37,
+    "name": "COMPLETE d-eat",
+    "image_url": "https://ringana-media-library.imgix.net/2023/08/R_Produktfoto_compleate-d-eat_2000x2000_1.png?s=61ff94fed6bec6081fb658e381de310e",
+    "product_url": "https://www.ringana.com/produkt/complete-d-eat/",
+    "created_at": "2025-10-19 02:29:02"
+  },
+  {
+    "id": 38,
+    "name": "FRESH lip balm classic gold",
+    "image_url": "https://ringana-media-library.imgix.net/GRX7YlSuHwGpl7jk9O-AA?s=66b1bfcddb5842346678a97e0662bc29",
+    "product_url": "https://www.ringana.com/produkt/fresh-lip-balm-classic-gold/",
+    "created_at": "2025-11-29 21:51:07"
+  },
+  {
+    "id": 39,
+    "name": "CAPS mascu",
+    "image_url": "https://ringana-media-library.imgix.net/2022/07/ringana-caps-mascu.png?s=94f5466f55ec7cc19f45a31c5f9a760b",
+    "product_url": "https://www.ringana.com/produkt/caps-mascu/",
+    "created_at": "2025-10-19 02:26:46"
+  },
+  {
+    "id": 40,
+    "name": "CAPS move",
+    "image_url": "https://ringana-media-library.imgix.net/2024/02/RINGANA-Produktfoto-caps-move-2000x2000-1.png?s=b43b0a4e159064cfcbafd851e2c78d79",
+    "product_url": "https://www.ringana.com/produkt/caps-move/",
+    "created_at": "2025-10-19 02:28:21"
+  },
+  {
+    "id": 41,
+    "name": "FRESH cream light",
+    "image_url": "https://ringana-media-library.imgix.net/-aFiTCfIm5FVAOuxXebcq?s=6bbf9771cd6590b2436e9d912b2bbddc",
+    "product_url": "https://www.ringana.com/produkt/fresh-cream-light/",
+    "created_at": "2025-10-19 02:34:31"
+  },
+  {
+    "id": 42,
+    "name": "FRESH tinted moisturiser SPF 30 – N3",
+    "image_url": "https://ringana-media-library.imgix.net/ERwC9sCZJpiApGW05Su8l?s=2a4d65b9aac13f3f9c370ef58f0ab1c2",
+    "product_url": "https://www.ringana.com/produkt/fresh-tinted-moisturiser-n3/",
+    "created_at": "2025-10-19 02:13:27"
+  },
+  {
+    "id": 43,
+    "name": "FRESH pack balancing",
+    "image_url": "https://ringana-media-library.imgix.net/EVzKV4ObHMHXhCHW0Csj1?s=1d028fdb5382e200f866bb2a3b5d87b6",
+    "product_url": "https://www.ringana.com/produkt/pack-balancing/",
+    "created_at": "2025-10-19 02:45:45"
+  },
+  {
+    "id": 44,
+    "name": "FRESH overnight body treatment",
+    "image_url": "https://ringana-media-library.imgix.net/2024/01/mmS2veSj-RINGANA-fresh-overnight-body-treatment-veggie-award.png?s=9423188b5a27b6f6f531aa8e6b2f1975",
+    "product_url": "https://www.ringana.com/produkt/fresh-overnight-body-treatment/",
+    "created_at": "2025-10-19 02:44:05"
+  },
+  {
+    "id": 45,
+    "name": "FRESH volume shampoo",
+    "image_url": "https://ringana-media-library.imgix.net/dMqeccEEDr5oRVp7pU0zo?s=340ec7f329c1664bee6aa37916793cb8",
+    "product_url": "https://www.ringana.com/produkt/fresh-volume-shampoo/",
+    "created_at": "2025-10-19 02:54:03"
+  },
+  {
+    "id": 46,
+    "name": "FRESH overnight face treatment",
+    "image_url": "https://ringana-media-library.imgix.net/2024/01/RINGANA-fresh-overnight-face-treatment-veggie-award.png?s=7800290df1024de4abaf55c344186a44",
+    "product_url": "https://www.ringana.com/produkt/fresh-overnight-face-treatment/",
+    "created_at": "2025-10-19 02:44:31"
+  },
+  {
+    "id": 47,
+    "name": "FRESH tooth balm",
+    "image_url": "https://ringana-media-library.imgix.net/oPWLFs9WbiL8ShGz6iqHY?s=3bade94d6118872ce610718d83902eb2",
+    "product_url": "https://www.ringana.com/produkt/fresh-tooth-balm/",
+    "created_at": "2025-10-19 02:52:54"
+  },
+  {
+    "id": 48,
+    "name": "FRESH sample box face medium",
+    "image_url": "https://ringana-media-library.imgix.net/y5E0GqOPnUiqwHOG5yWQs?s=260289f6899a95dd57b19173d83d015c",
+    "product_url": "https://silvie.ringana.com/produkt/fresh-sample-box-face-medium/",
+    "created_at": "2025-12-04 15:53:29"
+  },
+  {
+    "id": 49,
+    "name": "FRESH hydro serum",
+    "image_url": "https://ringana-media-library.imgix.net/aFbSwW08H23qmE8ntR925?s=4816dfa7b2a2382e56db06ab219992ee",
+    "product_url": "https://www.ringana.com/produkt/fresh-hydro-serum/",
+    "created_at": "2025-10-19 02:41:07"
+  },
+  {
+    "id": 50,
+    "name": "FRESH light legs",
+    "image_url": "https://ringana-media-library.imgix.net/2023/08/R_Produktfoto_light-legs_2000x2000_1_Kopie.png?s=d2f3ad2019fb9087b505bbc833ef6ff4",
+    "product_url": "https://www.ringana.com/produkt/fresh-light-legs/",
+    "created_at": "2025-10-19 02:43:14"
+  },
+  {
+    "id": 51,
+    "name": "FRESH hand balm",
+    "image_url": "https://ringana-media-library.imgix.net/-_-OIF9yd2crtmCxKOAnm?s=bbe598c6224f545c6021779e19c7990c",
+    "product_url": "https://www.ringana.com/produkt/fresh-hand-balm/",
+    "created_at": "2025-10-19 02:39:35"
+  },
+  {
+    "id": 52,
+    "name": "FRESH hand balm pocket",
+    "image_url": "https://ringana-media-library.imgix.net/mVJ_8-DzGzIj5ncXprRVB?s=5e5b1b584fdf51ff5612678c0d6a7a9c",
+    "product_url": "https://www.ringana.com/produkt/fresh-hand-balm-pocket/",
+    "created_at": "2025-10-19 02:40:10"
+  },
+  {
+    "id": 53,
+    "name": "FRESH hair treatment",
+    "image_url": "https://ringana-media-library.imgix.net/y7PF0opxiHtLZhs24I4Ee?s=9e33b3f32b921ed63b546ba6bdb12093",
+    "product_url": "https://www.ringana.com/produkt/fresh-hair-treatment/",
+    "created_at": "2025-10-19 02:38:30"
+  },
+  {
+    "id": 54,
+    "name": "FRESH foot balm",
+    "image_url": "https://ringana-media-library.imgix.net/TOgPoN_Bg90zjx6c7FXuD?s=664a54b7ffa65b1405f6f5f0729124f5",
+    "product_url": "https://www.ringana.com/produkt/fresh-foot-balm/",
+    "created_at": "2025-10-19 02:37:21"
+  },
+  {
+    "id": 55,
+    "name": "FRESH eye serum",
+    "image_url": "https://ringana-media-library.imgix.net/2024/02/RINGANA-fresh-eye-serum.png?s=04ce7db3650fa40dd3dc15b5608fbd85",
+    "product_url": "https://www.ringana.com/produkt/fresh-eye-serum/",
+    "created_at": "2025-10-19 02:36:42"
+  },
+  {
+    "id": 56,
+    "name": "FRESH deodorant pocket",
+    "image_url": "https://ringana-media-library.imgix.net/tZQYNLQVyQi6O9lFWByz6?s=bb8a3d5a32a105f3b19031ba9181ac87",
+    "product_url": "https://www.ringana.com/produkt/fresh-deodorant-pocket/",
+    "created_at": "2025-10-19 02:36:21"
+  },
+  {
+    "id": 57,
+    "name": "FRESH deodorant",
+    "image_url": "https://ringana-media-library.imgix.net/hAE3kgQ67EuuT9ObgPNfz?s=bd40aa2691bcb081f9b2464728e1ec4f",
+    "product_url": "https://www.ringana.com/produkt/fresh-deodorant/",
+    "created_at": "2025-10-19 02:35:57"
+  },
+  {
+    "id": 58,
+    "name": "FRESH cleanser",
+    "image_url": "https://ringana-media-library.imgix.net/2022/07/ringana-fresh-125ml-cleanser.png?s=5d5367fbb916b66a87801db80679d652",
+    "product_url": "https://www.ringana.com/produkt/fresh-cleanser/",
+    "created_at": "2025-10-19 02:33:47"
+  },
+  {
+    "id": 59,
+    "name": "FRESH cream medium",
+    "image_url": "https://ringana-media-library.imgix.net/2022/07/ringana-fresh-50ml-cream-medium.png?s=527d75cf5981baf5b13c21b0beb80d4f",
+    "product_url": "https://www.ringana.com/produkt/fresh-cream-medium/",
+    "created_at": "2025-10-19 02:35:12"
+  },
+  {
+    "id": 60,
+    "name": "FRESH anti wrinkle serum",
+    "image_url": "https://ringana-media-library.imgix.net/EqAS3SUTgjglU9pqQlOi5?s=145eedea2d85798b4b7439800bb55b3c",
+    "product_url": "https://www.ringana.com/produkt/fresh-anti-wrinkle-serum/",
+    "created_at": "2025-10-19 02:29:51"
+  },
+  {
+    "id": 61,
+    "name": "FRESH baby tooth gel",
+    "image_url": "https://ringana-media-library.imgix.net/KAQQxYa0lVjbJtbQK_D_j?s=af3c2c171831645279666acfc8adb9f1",
+    "product_url": "https://www.ringana.com/produkt/fresh-baby-tooth-gel/",
+    "created_at": "2025-10-19 02:33:00"
+  },
+  {
+    "id": 62,
+    "name": "FRESH baby sunscreen SPF 50",
+    "image_url": "https://ringana-media-library.imgix.net/1jxqhLy5sP_vnTjYimtxP?s=898a79c4410a64f75f2c35d7cc046cc9",
+    "product_url": "https://www.ringana.com/produkt/fresh-baby-sunscreen-spf-50/",
+    "created_at": "2025-10-19 02:32:30"
+  },
+  {
+    "id": 63,
+    "name": "CAPS moodoo",
+    "image_url": "https://ringana-media-library.imgix.net/hj8xpMWJAXCY0NjIkyd-K?s=6c058b9727b448d13dfa61d5375096dc",
+    "product_url": "https://www.ringana.com/produkt/caps-moodoo/",
+    "created_at": "2025-10-19 02:28:00"
+  },
+  {
+    "id": 64,
+    "name": "CAPS protect",
+    "image_url": "https://ringana-media-library.imgix.net/lte8QVkhfd6ZdBUfEiaOW?s=ef05c8f7df1240d2a1477b7de08b2b33",
+    "product_url": "https://www.ringana.com/produkt/caps-protect/",
+    "created_at": "2025-10-19 02:28:40"
+  },
+  {
+    "id": 65,
+    "name": "SPORT push",
+    "image_url": "https://ringana-media-library.imgix.net/MtkV4tN_cr2foIieNoQNL?s=808a21e4f477b6b36fe68b04762d9ad3",
+    "product_url": "https://www.ringana.com/produkt/sport-push/",
+    "created_at": "2025-10-19 02:56:59"
+  },
+  {
+    "id": 66,
+    "name": "SPORT protein",
+    "image_url": "https://ringana-media-library.imgix.net/KEJ7bB5rPfAoGuD10CYbL?s=ebf75e062eee4bbcc29b7120d7be5f34",
+    "product_url": "https://www.ringana.com/produkt/sport-protein/",
+    "created_at": "2025-10-19 02:56:42"
+  },
+  {
+    "id": 67,
+    "name": "FRESH tooth oil",
+    "image_url": "https://ringana-media-library.imgix.net/xcg6xPDSzAN8l-ihwDXzW?s=b99de972aaeb4f231a6ea6330d9c5ff9",
+    "product_url": "https://www.ringana.com/produkt/fresh-tooth-oil/",
+    "created_at": "2025-10-19 02:53:20"
+  },
+  {
+    "id": 68,
+    "name": "FRESH soap chai & scrub",
+    "image_url": "https://ringana-media-library.imgix.net/iglnfhjTDCXuXcW25MTp6?s=e0a5caf88a3aa53a1f1ac876be69e35a",
+    "product_url": "https://www.ringana.com/produkt/fresh-soap-chai-scrub/",
+    "created_at": "2025-10-19 02:57:40"
+  },
+  {
+    "id": 69,
+    "name": "FRESH sample box face rich",
+    "image_url": "https://ringana-media-library.imgix.net/B1rAh-Iky5PYarZzlVXsu?s=0c8abd2249fb6c82b00b2e2b4cba1fc5",
+    "product_url": "https://silvie.ringana.com/produkt/fresh-sample-box-face-rich/",
+    "created_at": "2025-12-04 15:53:32"
+  },
+  {
+    "id": 70,
+    "name": "FRESH body care x-mas set",
+    "image_url": "https://ringana-media-library.imgix.net/pp9IkhoSrIjP61vJBTOsl?s=73a9e638251fe355461b1bf0f165e4a9",
+    "product_url": "https://www.ringana.com/produkt/fresh-body-care-xmas-set/",
+    "created_at": "2025-10-19 02:58:46"
+  },
+  {
+    "id": 71,
+    "name": "FRESH cream rich",
+    "image_url": "https://ringana-media-library.imgix.net/2022/07/ringana-fresh-50ml-cream-rich.png?s=235b2743e45016ded57d88dcd49c5563",
+    "product_url": "https://www.ringana.com/produkt/fresh-cream-rich/",
+    "created_at": "2025-10-19 02:35:39"
+  },
+  {
+    "id": 72,
+    "name": "FRESH bath & shower oil zest limited edition",
+    "image_url": "https://ringana-media-library.imgix.net/BUIGGADg0E6bsnLsiX2GN?s=41d83ed42aafc5937ab9a3d755e8236c",
+    "product_url": "https://www.ringana.com/produkt/fresh-bath-shower-oil-zest/",
+    "created_at": "2025-10-19 02:58:17"
+  },
+  {
+    "id": 73,
+    "name": "ADDS glow",
+    "image_url": "https://ringana-media-library.imgix.net/yV4qgC1WmXMGmnYV3Q-fB?s=a9ba92ba751c79c866977c2b4cb72925",
+    "product_url": "https://www.ringana.com/produkt/fresh-adds-glow/",
+    "created_at": "2025-10-19 02:16:22"
+  },
+  {
+    "id": 74,
+    "name": "FRESH bright eyes x-mas set",
+    "image_url": "https://ringana-media-library.imgix.net/VhQQPh0hgGVOVGJ-XH-qk?s=5099312f32df779a7bbc02930f8af40f",
+    "product_url": "https://www.ringana.com/produkt/fresh-bright-eyes-xmas-set/",
+    "created_at": "2025-10-19 02:59:25"
+  },
+  {
+    "id": 75,
+    "name": "FRESH highlighter gold",
+    "image_url": "https://ringana-media-library.imgix.net/Wj0fKj3BuvGkfrfm16bUl?s=d8d14a9362d67117ee23faf19ae4f72a",
+    "product_url": "https://www.ringana.com/produkt/fresh-highlighter-gold/",
+    "created_at": "2025-10-19 03:00:45"
+  },
+  {
+    "id": 76,
+    "name": "FRESH lip balm plump & gold",
+    "image_url": "https://ringana-media-library.imgix.net/jT1kU25iWLhMsCg7FbLUJ?s=084dbcb7d94e4d4b0728403587b675d4",
+    "product_url": "https://www.ringana.com/produkt/fresh-lip-balm-plump-gold/",
+    "created_at": "2025-10-19 03:01:19"
+  },
+  {
+    "id": 77,
+    "name": "RINGANAisi",
+    "image_url": "https://ringana-media-library.imgix.net/2024/02/RINGANA-drinks-isi.png?s=fad7c7ef499d8e943d450b07a4bcec9d",
+    "product_url": "https://www.ringana.com/produkt/ringanaisi/",
+    "created_at": "2025-10-19 02:56:03"
+  },
+  {
+    "id": 78,
+    "name": "FRESH tinted balm lip & cheek rosewood",
+    "image_url": "https://ringana-media-library.imgix.net/PKQuE4S4Ca3Pf74znca72?s=cb193b3fe0f7be7b589d8302da000731",
+    "product_url": "https://www.ringana.com/produkt/fresh-tinted-balm-rosewood/",
+    "created_at": "2025-10-19 02:12:54"
+  },
+  {
+    "id": 79,
+    "name": "FRESH tonic pure",
+    "image_url": "https://ringana-media-library.imgix.net/2022/07/ringana-fresh-125ml-tonic-pure.png?s=6afa5c612d9b671f4b30db883027cd9a",
+    "product_url": "https://www.ringana.com/produkt/fresh-tonic-pure/",
+    "created_at": "2025-10-19 02:52:35"
+  },
+  {
+    "id": 80,
+    "name": "FRESH repair shampoo",
+    "image_url": "https://ringana-media-library.imgix.net/Qtg7VK25lO7eDCgHmaGGt?s=27dc887a106959dfc0b9afa5f824f153",
+    "product_url": "https://www.ringana.com/produkt/fresh-repair-shampoo/",
+    "created_at": "2025-10-19 02:46:58"
+  },
+  {
+    "id": 81,
+    "name": "FRESH pack cleansing",
+    "image_url": "https://ringana-media-library.imgix.net/sZPv6xZDnSlV5Kshcdtfd?s=103eff72d5cccac9cea23aaa43e7d4ae",
+    "product_url": "https://www.ringana.com/produkt/pack-cleansing/",
+    "created_at": "2025-10-19 02:46:05"
+  },
+  {
+    "id": 82,
+    "name": "manadental liquid",
+    "image_url": "https://ringana-media-library.imgix.net/2023/07/R_Produktfoto_manodental_2000x2000_01.png?s=d3f6caaa42393b8a08acb5b6e7aeca11",
+    "product_url": "https://www.ringana.com/produkt/manadental-liquid/",
+    "created_at": "2025-10-19 02:54:45"
+  },
+  {
+    "id": 83,
+    "name": "FRESH tonic calm",
+    "image_url": "https://ringana-media-library.imgix.net/2024/02/Ringana-fresh-tonic-calm.png?s=c51c4b93c7f29a03198634ad06696a99",
+    "product_url": "https://www.ringana.com/produkt/fresh-tonic-calm/",
+    "created_at": "2025-10-19 02:52:16"
+  },
+  {
+    "id": 84,
+    "name": "RINGANAchi",
+    "image_url": "https://ringana-media-library.imgix.net/2024/01/Ringana-produktfoto-ringanachi.png?s=bf294f6b5e838c05481e56f31ecf6d97",
+    "product_url": "https://www.ringana.com/produkt/ringanachi/",
+    "created_at": "2025-10-19 02:55:21"
+  },
+  {
+    "id": 85,
+    "name": "RINGANAdea",
+    "image_url": "https://ringana-media-library.imgix.net/2023/09/R_Produktfoto_drinks-dea_700x700_1.png?s=66c415ff50e87e2b15f13cc02cf0bdb0",
+    "product_url": "https://www.ringana.com/produkt/ringanadea/",
+    "created_at": "2025-10-19 02:55:39"
+  },
+  {
+    "id": 86,
+    "name": "FRESH pack antiox",
+    "image_url": "https://ringana-media-library.imgix.net/N9UiMPSjCefD1WJtRUtTT?s=db95d8983a51487b901338dab1373120",
+    "product_url": "https://www.ringana.com/produkt/pack-antiox/",
+    "created_at": "2025-10-19 02:45:05"
+  },
+  {
+    "id": 87,
+    "name": "FRESH sunscreen face",
+    "image_url": "https://ringana-media-library.imgix.net/Oe8j3VfspwhdSejik39V8?s=938edb1dce33bf88cead6144151bd6cf",
+    "product_url": "https://www.ringana.com/produkt/fresh-sunscreen-face/",
+    "created_at": "2025-10-19 02:14:12"
+  },
+  {
+    "id": 88,
+    "name": "FRESH soap liquid",
+    "image_url": "https://ringana-media-library.imgix.net/2023/08/R_Produktfoto_soap-liquid_2000x2000_01.png?s=46269dc5656d7a61b35bca55431c6f9c",
+    "product_url": "https://www.ringana.com/produkt/fresh-soap-liquid/",
+    "created_at": "2025-10-19 02:48:23"
+  },
+  {
+    "id": 89,
+    "name": "FRESH soap",
+    "image_url": "https://ringana-media-library.imgix.net/2022/07/ringana-fresh-soap.png?s=1845e96627df9d42632cdff3ca478868",
+    "product_url": "https://www.ringana.com/produkt/fresh-soap/",
+    "created_at": "2025-10-19 02:47:52"
+  },
+  {
+    "id": 90,
+    "name": "FRESH scrub face & body",
+    "image_url": "https://ringana-media-library.imgix.net/wfSNVFzu3DLTYQuZD4zy5?s=d99597fa5dcc9012c5adc76853b6216b",
+    "product_url": "https://www.ringana.com/produkt/fresh-scrub/",
+    "created_at": "2025-10-19 02:47:25"
+  },
+  {
+    "id": 91,
+    "name": "FRESH illuminating enzyme mask",
+    "image_url": "https://ringana-media-library.imgix.net/2024/03/RINGANA-Produktfoto-fresh-illuminating-enzyme-mask-peeling.png?s=09004c27d6c4d1e555b62d30c8b3e580",
+    "product_url": "https://www.ringana.com/produkt/fresh-illuminating-enzyme-mask/",
+    "created_at": "2025-10-19 02:42:10"
+  },
+  {
+    "id": 92,
+    "name": "BEYOND biotic",
+    "image_url": "https://ringana-media-library.imgix.net/2023/08/ringana-caps-biotic-new_logo.png?s=e338e040a0daae9f09e761cde2935627",
+    "product_url": "https://www.ringana.com/produkt/beyond-biotic/",
+    "created_at": "2025-10-19 02:17:59"
+  }
+]

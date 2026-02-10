@@ -1,0 +1,23 @@
+{
+  "name": "ManagePeople",
+  "short_name": "ManagePeople",
+  "start_url": "index.php",
+  "display": "standalone",
+  "background_color": "#F8F9FA",
+  "theme_color": "#FF6B6B",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/images/favicon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/images/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+/* Global Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    background-image: radial-gradient(var(--color-secondary) 1px, transparent 0);
+    background-size: 40px 40px;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Highlighter Effect */
+.highlighter {
+    position: relative;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.highlighter::after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    right: -2px;
+    bottom: 4px;
+    height: 12px;
+    background-color: var(--color-highlight);
+    opacity: 0.4;
+    z-index: -1;
+    transform: rotate(-1deg);
+    border-radius: 2px;
+}
+
+/* Glassmorphism Card Style */
+.glass-card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.glass-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Styles */
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    color: #4b5563;
+    /* gray-600 */
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+
+.sidebar-item:hover {
+    background-color: #f9fafb;
+    /* gray-50 */
+}
+
+.sidebar-item.active {
+    background-color: rgba(255, 107, 107, 0.1);
+    color: var(--color-primary);
+    border-left: 4px solid var(--color-primary);
+}
+
+.sidebar-item i {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.75rem;
+}
+
+/* Doodle Progress Circle */
+.progress-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    position: relative;
+}
+
+.progress-circle svg {
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+/* Doodle Animation */
+.doodle-container {
+    position: relative;
+    /* overflow: visible; - removed to avoid scrollbars if off-canvas, but generally needed */
+}
+
+.doodle {
+    position: absolute;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.15;
+    transition: transform 0.3s ease-in-out;
+}
+
+.glass-card:hover .doodle {
+    opacity: 0.25;
+    transform: scale(1.05) rotate(2deg);
+}
+
+/* Doodle Colors */
+.doodle-coral {
+    color: var(--color-primary);
+    fill: currentColor;
+}
+
+.doodle-teal {
+    color: var(--color-secondary);
+    fill: currentColor;
+}
+
+.doodle-purple {
+    color: var(--color-accent);
+    fill: currentColor;
+}
+
+.doodle-yellow {
+    color: var(--color-highlight);
+    fill: currentColor;
+}
+
+.doodle-blue {
+    color: var(--color-blue);
+    fill: currentColor;
+}
+
+/* Mobile Navigation */
+.mobile-nav {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    z-index: 50;
+    height: var(--bottom-nav-height);
+    padding-bottom: env(safe-area-inset-bottom);
+    box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.mobile-nav-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-light);
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.mobile-nav-item.active {
+    color: var(--color-primary);
+}
+
+.mobile-floating-action-btn {
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 56px;
+    height: 56px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 4px 6px rgba(255, 107, 107, 0.4);
+    border: 4px solid #f8f9fa;
+    /* Match bg color to look like cutout */
+}
+
+@media (max-width: 768px) {
+    .desktop-sidebar {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+    }
+
+    main {
+        padding-bottom: calc(var(--bottom-nav-height) + 20px);
+    }
+}
+
+@media (min-width: 769px) {
+
+    .mobile-nav,
+    .mobile-more-overlay,
+    .mobile-more-sheet {
+        display: none !important;
+    }
+
+    .desktop-sidebar {
+        display: flex;
+    }
+}
+
+/* ===== MOBILE-OPTIMIZED STYLES ===== */
+
+/* "Mehr" Slide-Up Sheet */
+.mobile-more-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 60;
+    display: none;
+    /* Changed from opacity: 0 to display: none to prevent layout issues */
+}
+
+.mobile-more-overlay.open {
+    display: block;
+    animation: fadeIn 0.25s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.mobile-more-sheet {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: 20px 20px 0 0;
+    z-index: 61;
+    transform: translateY(100%);
+    transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+    padding-bottom: env(safe-area-inset-bottom);
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.mobile-more-overlay.open .mobile-more-sheet {
+    transform: translateY(0);
+}
+
+.mobile-more-sheet .sheet-handle {
+    width: 36px;
+    height: 4px;
+    background: #d1d5db;
+    border-radius: 2px;
+    margin: 10px auto 16px;
+}
+
+.mobile-more-sheet .sheet-item {
+    display: flex;
+    align-items: center;
+    padding: 14px 24px;
+    color: #374151;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.15s;
+}
+
+.mobile-more-sheet .sheet-item:active {
+    background: #f3f4f6;
+}
+
+.mobile-more-sheet .sheet-item i {
+    width: 22px;
+    height: 22px;
+    margin-right: 14px;
+    color: #9ca3af;
+}
+
+.mobile-more-sheet .sheet-item.active i {
+    color: var(--color-primary);
+}
+
+.mobile-more-sheet .sheet-divider {
+    height: 1px;
+    background: #f3f4f6;
+    margin: 6px 24px;
+}
+
+/* Mobile Contact Cards */
+.mobile-contact-card {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    background: white;
+    border-bottom: 1px solid #f3f4f6;
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.mobile-contact-card:active {
+    background: #f9fafb;
+}
+
+.mobile-contact-card .card-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+    flex-shrink: 0;
+    margin-right: 12px;
+}
+
+.mobile-contact-card .card-info {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.mobile-contact-card .card-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #1f2937;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mobile-contact-card .card-meta {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 2px;
+}
+
+.mobile-contact-card .card-actions {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+    margin-left: 8px;
+}
+
+.mobile-contact-card .card-actions a {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.15s;
+}
+
+.mobile-contact-card .card-actions a:active {
+    transform: scale(0.92);
+}
+
+/* Mobile Quick Actions (Contact Detail) */
+.mobile-quick-actions {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 12px 0;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.mobile-quick-actions::-webkit-scrollbar {
+    display: none;
+}
+
+.mobile-quick-actions a {
+    min-width: 52px;
+    height: 52px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    text-decoration: none;
+    transition: transform 0.15s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-quick-actions a:active {
+    transform: scale(0.92);
+}
+
+/* PWA Safe Areas */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+    .mobile-nav {
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+
+    body {
+        padding-top: env(safe-area-inset-top);
+    }
+}
+
+/* Disable hover-lift on mobile (cards) */
+@media (max-width: 768px) {
+    .glass-card:hover {
+        transform: none;
+    }
+
+    /* Scrollbar hide utility */
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
