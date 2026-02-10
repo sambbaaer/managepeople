@@ -1,0 +1,2 @@
+# managepeople
+CRM for RInganaPeople
